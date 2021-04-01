@@ -12,6 +12,10 @@
         <string>applications</string>
         <key>NAME</key>
         <string>googledrivefilestream</string>
+        <key>pkg_ids_set_optional_true</key>
+        <array>
+            <string>com.google.pkg.Keystone</string>
+        </array>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -68,6 +72,10 @@
             </dict>
             <key>Processor</key>
             <string>MunkiImporter</string>
+        </dict>
+        <dict>
+                <key>Processor</key>
+                <string>com.github.keeleysam.recipes.GoogleTalkPlugin/MunkiPkginfoReceiptsEditor</string>
         </dict>
     </array>
 </dict>
