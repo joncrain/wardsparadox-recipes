@@ -18,5 +18,5 @@ ParentRecipe: com.github.autopkg.wardsparadox.download.Ghostty
 Process:
   - Processor: MunkiImporter
     Arguments:
-      pkg_path: "%RECIPE_CACHE_DIR%/downloads/Ghostty-%version%.dmg"
+      pkg_path: '%pathname%'
       repo_subdirectory: "%MUNKI_REPO_SUBDIR%"
